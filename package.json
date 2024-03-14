@@ -1,0 +1,29 @@
+{
+  "name": "reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/reports.app.ts",
+    "dev": "nodemon src/reports.app.ts",
+    "build": "tsc",
+    "vercel-build": "echo Build for Vercel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3"
+  }
+}
